@@ -41,7 +41,8 @@ class Box2dState {
   }
 
   void _initialize(Puzzle puzzle) {
-    box2d.createWorld(gravity: Vector2(0, defaultGravity));
+    box2d.createWorld(
+        gravity: Vector2(0, _read(Providers.configController).gravity));
     world.setAllowSleep(true);
     _createBoard(puzzle);
   }
