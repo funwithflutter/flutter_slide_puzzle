@@ -16,6 +16,19 @@ Play around with the physics of the game yourself. Set the weight and bounciness
 
 <img width="1414" alt="Screenshot 2022-03-14 at 18 03 44" src="https://user-images.githubusercontent.com/13705472/158223345-2b35cc19-d7dc-4334-bd44-621ed2bc0a4c.png">
 
+## Getting Started
+
+Clone the repository:
+```bash
+git clone https://github.com/funwithflutter/flutter_slide_puzzle
+```
+Create platform folders:
+```bash
+flutter create
+```
+
+Then `flutter run` for your desired platform. Performance is not great in Debug mode, for Flutter Web. Desktop works great. Mobile should be fine 🙂.
+
 ## Resources
 
 Below I share some resources that helped me make this game. If there is enough interest from the community, I'd be happy to elaborate a bit more with a YouTube video or article 😃.
