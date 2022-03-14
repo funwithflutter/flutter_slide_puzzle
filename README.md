@@ -2,7 +2,11 @@
 
 Here is my submission to the [2022 Flutter Puzzle Hack](https://flutter.dev/events/puzzle-hack).
 
-It uses Box2D physics to create an interesting gameplay mechanic where you need to manage a bit more than a simple slider. The code is all pure Flutter with widgets, animations and [CustomPaint](https://api.flutter.dev/flutter/widgets/CustomPaint-class.html). It doesn't use any Flutter game engine.
+It uses Box2D physics to create an interesting gameplay mechanic where you need to manage a bit more than a simple slider. The code is all pure Flutter with widgets, animations, and [CustomPaint](https://api.flutter.dev/flutter/widgets/CustomPaint-class.html). It doesn't use any Flutter game engine.
+
+The goal is to fill up the containers with the particles, to be able to see the container's number. Then do the normal Slide Puzzle 🙂.
+
+Need more particles? Press the **RAIN** button, and make it rain. But be careful. You take a time penalty each time.
 
 ![](preview.gif)
 
