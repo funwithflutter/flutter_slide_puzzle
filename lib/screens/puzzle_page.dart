@@ -816,6 +816,35 @@ class _InfoButtonState extends ConsumerState<_InfoButton>
                 fit: BoxFit.scaleDown,
                 child: TextButton(
                   onPressed: () {
+                    launch(
+                        'https://github.com/funwithflutter/flutter_slide_puzzle');
+                  },
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: SizedBox(
+                          width: 50,
+                          child: Image.asset('assets/images/github.png'),
+                        ),
+                      ),
+                      const Text(
+                        'Source Code',
+                        style: TextStyle(
+                          fontFamily: 'TitanOne',
+                          fontSize: 22,
+                          color: AppColors.highlight,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: TextButton(
+                  onPressed: () {
                     launch('https://github.com/HayesGordon');
                   },
                   child: Row(
